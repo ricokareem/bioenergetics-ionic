@@ -2,23 +2,23 @@ angular.module('starter.controllers', [])
 
 .controller('DashCtrl', function($scope) {})
 
-.controller('ChatsCtrl', function($scope, Chats) {
-  $scope.chats = Chats.all();
-  $scope.remove = function(chat) {
-    Chats.remove(chat);
+.controller('AilmentsCtrl', function($scope, Ailments) {
+  $scope.ailments = Ailments.all();
+  $scope.remove = function(ailment) {
+    Ailments.remove(ailment);
   }
 })
 
-.controller('ChatDetailCtrl', function($scope, $stateParams, Chats) {
-  $scope.chat = Chats.get($stateParams.chatId);
+.controller('AilmentDetailCtrl', function($scope, $stateParams, Ailments) {
+  $scope.ailment = Ailments.get($stateParams.ailmentId);
 })
 
-.controller('FriendsCtrl', function($scope, Friends) {
-  $scope.friends = Friends.all();
+.controller('HealingCardsCtrl', function($scope, HealingCards) {
+  $scope.healingCards = HealingCards.all();
 })
 
-.controller('FriendDetailCtrl', function($scope, $stateParams, Friends) {
-  $scope.friend = Friends.get($stateParams.friendId);
+.controller('HealingCardDetailCtrl', function($scope, $stateParams, HealingCards) {
+  $scope.healingCard = HealingCards.get($stateParams.healingCardId);
 })
 
 .controller('AccountCtrl', function($scope) {

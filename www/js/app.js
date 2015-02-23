@@ -48,40 +48,40 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
     }
   })
 
-  .state('tab.chats', {
-      url: '/chats',
+  .state('tab.ailments', {
+      url: '/ailments',
       views: {
-        'tab-chats': {
-          templateUrl: 'templates/tab-chats.html',
-          controller: 'ChatsCtrl'
+        'tab-ailments': {
+          templateUrl: 'templates/tab-ailments.html',
+          controller: 'AilmentsCtrl'
         }
       }
     })
-    .state('tab.chat-detail', {
-      url: '/chats/:chatId',
+    .state('tab.ailment-detail', {
+      url: '/ailments/:ailmentId',
       views: {
-        'tab-chats': {
-          templateUrl: 'templates/chat-detail.html',
-          controller: 'ChatDetailCtrl'
+        'tab-ailments': {
+          templateUrl: 'templates/ailment-detail.html',
+          controller: 'AilmentDetailCtrl'
         }
       }
     })
 
-  .state('tab.friends', {
-      url: '/friends',
+  .state('tab.healingCards', {
+      url: '/healingCards',
       views: {
-        'tab-friends': {
-          templateUrl: 'templates/tab-friends.html',
-          controller: 'FriendsCtrl'
+        'tab-healingCards': {
+          templateUrl: 'templates/tab-healingCards.html',
+          controller: 'HealingCardsCtrl'
         }
       }
     })
-    .state('tab.friend-detail', {
-      url: '/friend/:friendId',
+    .state('tab.healingCard-detail', {
+      url: '/healingCard/:healingCardId',
       views: {
-        'tab-friends': {
-          templateUrl: 'templates/friend-detail.html',
-          controller: 'FriendDetailCtrl'
+        'tab-healingCards': {
+          templateUrl: 'templates/healingCard-detail.html',
+          controller: 'HealingCardDetailCtrl'
         }
       }
     })

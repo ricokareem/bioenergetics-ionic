@@ -1,6 +1,7 @@
 angular.module('starter.controllers', [])
 
-.controller('DashCtrl', function($scope) {})
+// example of serving a plain html page
+// .controller('PlainOleController', function($scope) {})
 
 .controller('AilmentsController', function($scope, Ailments) {
   $scope.ailments = Ailments.all();

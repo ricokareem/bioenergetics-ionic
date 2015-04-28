@@ -17,7 +17,7 @@ angular.module('starter.controllers', [])
   $scope.healingCards = HealingCards.all();
 })
 
-.controller('HealingCardDetailCtrl', function($scope, $stateParams, HealingCards) {
+.controller('HealingCardDetailController', function($scope, $stateParams, HealingCards) {
   $scope.healingCard = HealingCards.get($stateParams.healingCardId);
 })
 

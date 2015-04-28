@@ -81,7 +81,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
       views: {
         'tab-healingCards': {
           templateUrl: 'templates/healingCard-detail.html',
-          controller: 'HealingCardDetailCtrl'
+          controller: 'HealingCardDetailController'
         }
       }
     })

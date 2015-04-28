@@ -2,18 +2,18 @@ angular.module('starter.controllers', [])
 
 .controller('DashCtrl', function($scope) {})
 
-.controller('AilmentsCtrl', function($scope, Ailments) {
+.controller('AilmentsController', function($scope, Ailments) {
   $scope.ailments = Ailments.all();
   $scope.remove = function(ailment) {
     Ailments.remove(ailment);
   }
 })
 
-.controller('AilmentDetailCtrl', function($scope, $stateParams, Ailments) {
+.controller('AilmentDetailController', function($scope, $stateParams, Ailments) {
   $scope.ailment = Ailments.get($stateParams.ailmentId);
 })
 
-.controller('HealingCardsCtrl', function($scope, HealingCards) {
+.controller('HealingCardsController', function($scope, HealingCards) {
   $scope.healingCards = HealingCards.all();
 })
 

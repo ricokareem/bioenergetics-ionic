@@ -53,7 +53,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
       views: {
         'tab-ailments': {
           templateUrl: 'templates/tab-ailments.html',
-          controller: 'AilmentsCtrl'
+          controller: 'AilmentsController'
         }
       }
     })
@@ -62,7 +62,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
       views: {
         'tab-ailments': {
           templateUrl: 'templates/ailment-detail.html',
-          controller: 'AilmentDetailCtrl'
+          controller: 'AilmentDetailController'
         }
       }
     })
@@ -72,7 +72,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
       views: {
         'tab-healingCards': {
           templateUrl: 'templates/tab-healingCards.html',
-          controller: 'HealingCardsCtrl'
+          controller: 'HealingCardsController'
         }
       }
     })

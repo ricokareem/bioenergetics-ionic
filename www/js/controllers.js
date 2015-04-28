@@ -20,10 +20,11 @@ angular.module('starter.controllers', [])
 
 .controller('HealingCardDetailController', function($scope, $stateParams, HealingCards) {
   $scope.healingCard = HealingCards.get($stateParams.healingCardId);
-})
-
-.controller('AccountCtrl', function($scope) {
-  $scope.settings = {
-    enableFriends: true
-  };
 });
+
+// example of a controller with presets
+// .controller('AccountCtrl', function($scope) {
+//   $scope.settings = {
+//     enableFriends: true
+//   };
+// });

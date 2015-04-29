@@ -1,10 +1,9 @@
 <ion-view view-title="Healing Sequences">
   <ion-content>
-    <ion-list>
-      <ion-item class="item item-icon-right" ng-repeat="movementCard in movementCards" type="item-text-wrap" href="#/tab/movementCard/{{movementCard.id}}">
+    <ion-list class="sequence-menu">
+      <ion-item class="item sequence-menu-item" ng-repeat="movementCard in movementCards" type="item-text-wrap" href="#/tab/movementCard/{{movementCard.id}}">
         <!-- <img ng-src="{{friend.face}}"> -->
         <h2>{{movementCard.title}}</h2>
-        <i class="icon ion-chevron-right icon-accessory"></i>
       </ion-item>
     </ion-list>
   </ion-content>

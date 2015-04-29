@@ -136,12 +136,12 @@ angular.module('starter.services', [])
   }, {
     id: 7,
     name: "card_8",
-    title: "Clockwise &amp; Counterclockwise Circular Motion: To Reset the Chi - part 1",
+    title: "Clockwise & Counterclockwise Circular Motion: To Reset the Chi - part 1",
     movie: "/media/81.mp4"
   }, {
     id: 8,
     name: "card_8",
-    title: "Clockwise &amp; Counterclockwise Circular Motion: To Reset the Chi - part 2",
+    title: "Clockwise & Counterclockwise Circular Motion: To Reset the Chi - part 2",
     movie: "/media/82.mp4"
   }, {
     id: 9,
@@ -151,7 +151,7 @@ angular.module('starter.services', [])
   }, {
     id: 10,
     name: "card_10",
-    title: "Energy &quot;Flossing&quot;: Unblocking Energy Pathways",
+    title: 'Energy "Flossing": Unblocking Energy Pathways',
     movie: "/media/10.mp4"
   }, {
     id: 11,

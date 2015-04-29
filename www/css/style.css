@@ -1,1 +1,20 @@
 /* Empty. Add your own CSS if you like */
+
+.list,
+.item h1,
+.item h2 {
+	text-transform: capitalize;
+	white-space: normal;
+}
+
+.sequence-menu {
+	margin: 0;
+	padding: 0;
+}
+
+.sequence-menu-item {
+	width: 50%;
+	float: left;
+	margin: 0;
+	height: 150px;
+}

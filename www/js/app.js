@@ -77,21 +77,21 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
       }
     })
 
-  .state('tab.healingCards', {
-      url: '/healingCards',
+  .state('tab.movementCards', {
+      url: '/movementCards',
       views: {
-        'tab-healingCards': {
-          templateUrl: 'templates/tab-healingCards.html',
-          controller: 'HealingCardsController'
+        'tab-movementCards': {
+          templateUrl: 'templates/tab-movementCards.html',
+          controller: 'movementCardsController'
         }
       }
     })
-    .state('tab.healingCard-detail', {
-      url: '/healingCard/:healingCardId',
+    .state('tab.movementCard-detail', {
+      url: '/movementCard/:movementCardId',
       views: {
-        'tab-healingCards': {
-          templateUrl: 'templates/healingCard-detail.html',
-          controller: 'HealingCardDetailController'
+        'tab-movementCards': {
+          templateUrl: 'templates/movementCard-detail.html',
+          controller: 'movementCardDetailController'
         }
       }
     });

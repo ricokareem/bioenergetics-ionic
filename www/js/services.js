@@ -97,8 +97,8 @@ angular.module('starter.services', [])
 })
 
 
-.factory('HealingCards', function() {
-  var healingCards = [{
+.factory('movementCards', function() {
+  var movementCards = [{
     id: 0,
     name: "card_1",
     title: "Balancing Energy Distribution",
@@ -192,11 +192,11 @@ angular.module('starter.services', [])
 
   return {
     all: function() {
-      return healingCards;
+      return movementCards;
     },
-    get: function(healingCardId) {
+    get: function(movementCardId) {
       // Simple index lookup
-      return healingCards[healingCardId];
+      return movementCards[movementCardId];
     }
   }
 });

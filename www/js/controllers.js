@@ -18,12 +18,12 @@ angular.module('starter.controllers', [])
   $scope.ailment = Ailments.get($stateParams.ailmentId);
 })
 
-.controller('HealingCardsController', function($scope, HealingCards) {
-  $scope.healingCards = HealingCards.all();
+.controller('movementCardsController', function($scope, movementCards) {
+  $scope.movementCards = movementCards.all();
 })
 
-.controller('HealingCardDetailController', function($scope, $stateParams, HealingCards) {
-  $scope.healingCard = HealingCards.get($stateParams.healingCardId);
+.controller('movementCardDetailController', function($scope, $stateParams, movementCards) {
+  $scope.movementCard = movementCards.get($stateParams.movementCardId);
 });
 
 // example of a controller with presets

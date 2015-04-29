@@ -1,20 +1,64 @@
 /* Empty. Add your own CSS if you like */
 
+/* ############################################################## */
+/* Ionic Overrides - So that we don't lose them when we upgrade ionic versions */
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    color: #fff;
+}
+
+.pane,
+.item {
+    color: #fff;
+    background-color: #fb8400;
+}
+
+.bar.bar-stable .title {
+    color: #fb8400;
+    text-align: left;
+}
+
+.item {
+    font-size: 14px;
+    border-bottom: none;
+}
+
 .list,
 .item h1,
 .item h2 {
-	text-transform: capitalize;
-	white-space: normal;
+    text-transform: capitalize;
+    white-space: normal;
+    font-weight: bold;
+    font-size: 14px;
 }
 
+.item-complex .item-content, .item-radio .item-content {
+    background-color: #fb8400;
+}
+
+.tabs {
+    background-color: #000;
+    border-color: #000;
+}
+
+.tab-item .icon {
+    margin: 5px auto 0;
+}
+
+ion-tabs.tabs-color-active-positive .tab-item { color: #fff; }
+ion-tabs.tabs-color-active-positive .tab-item.tab-item-active,
+ion-tabs.tabs-color-active-positive .tab-item.active,
+ion-tabs.tabs-color-active-positive .tab-item.activated { color: #fff; }
+
+/* ############################################################## */
+/* Regular Styles - Classes I created */
 .sequence-menu {
-	margin: 0;
-	padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 .sequence-menu-item {
-	width: 50%;
-	float: left;
-	margin: 0;
-	height: 150px;
+    width: 50%;
+    float: left;
+    margin: 0;
+    height: 130px;
 }

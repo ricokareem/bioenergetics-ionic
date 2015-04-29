@@ -3,6 +3,10 @@ angular.module('starter.controllers', [])
 // example of serving a plain html page
 // .controller('PlainOleController', function($scope) {})
 
+.controller('HomeController', function($scope) {})
+
+.controller('InfoController', function($scope) {})
+
 .controller('AilmentsController', function($scope, Ailments) {
   $scope.ailments = Ailments.all();
   $scope.remove = function(ailment) {
